@@ -1,0 +1,43 @@
+.sliderholder{
+    display: flex;
+    justify-content: center;
+    width:100vw;
+    height:70vh;
+    position:relative;
+}
+.scrolldiv{
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+    height:70vh;
+    
+}
+.imageholder{
+ width: 100vw;
+ display: inline-block;
+ height:100%;
+ background-repeat: no-repeat;
+ object-fit: contain;
+ background-color: red;
+ background-size: cover;
+
+}
+.onemoviedetail{
+    display: flex;
+    flex-direction: column;
+  background-color:rgba(245, 245, 245, 0.188);
+    margin-top:51vh;
+   
+    padding: 10px 0;
+    padding-left: 20vh;
+    /* margin-left:10vw; */
+    gap:6px;
+
+}
+.scrolldiv::-webkit-scrollbar {
+    display: none;
+  }
+  .scrolldiv {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

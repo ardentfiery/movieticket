@@ -3,7 +3,7 @@ import React from "react";
 import { useRef } from "react";
 import styles from "./slider.module.css";
 
-const Slider = () => {
+const Slider = ({showTrailer}) => {
     const sliderRef = useRef(null);
     const rightSlider = () => {
         console.log("kei aaaxa ki aaxiana");
@@ -18,6 +18,7 @@ const Slider = () => {
             name: "x-men",
             description: "this is a very nice movie ",
             img_name: "movie4.jpg",
+            rel_date:"september 20"
         },
 
         {
@@ -25,6 +26,7 @@ const Slider = () => {
             name: "spiderman",
             description: "this is a very nice movie ",
             img_name: "movie2.jpg",
+            rel_date:"october 20"
         },
 
         {
@@ -32,6 +34,7 @@ const Slider = () => {
             name: "ironman",
             description: "this is a very nice movie ",
             img_name: "movie3.jpg",
+            rel_date:"september 28"
         },
     ];
     return (
@@ -64,7 +67,7 @@ const Slider = () => {
                                 <div className="text-5xl"> {movie.name}</div>
                                 <div className="text-lg">{movie.description}</div>
                                 <div className="flex gap-4 ">
-                                    <div><button className="w-32 h-12 rounded-3xl text-lg bg-red-500">play trailer</button></div>
+                                    <div><button onClick={showTrailer} className="w-32 h-12 rounded-3xl text-lg bg-red-500">play trailer</button></div>
                                     <div><button className="w-32 h-12 rounded-3xl text-lg bg-red-500">buy ticket</button></div>
                                 </div>
                             </div>

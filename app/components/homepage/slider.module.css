@@ -21,12 +21,13 @@
  background-color: red;
  background-size: cover;
 
+
 }
 .onemoviedetail{
     display: flex;
     flex-direction: column;
   background-color:rgba(245, 245, 245, 0.188);
-    margin-top:51vh;
+    margin-top:48vh;
    
     padding: 10px 0;
     padding-left: 20vh;
@@ -40,4 +41,22 @@
   .scrolldiv {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+  }
+
+
+  .buyticket{
+
+ opacity: 0;
+ transition:all 0.8s ease-out;
+
+  }
+  .imageholds{
+    box-shadow: 2px 2px 4px gray;
+  }
+  .imageholds:hover .buyticket{  /*yo chai imageholds ma hover garda buyticket bhanne div dekhinuparne so yesto gareko*/
+    display: flex;
+    opacity:1;
+
+
+    
   }

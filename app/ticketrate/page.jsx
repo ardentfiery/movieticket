@@ -15,15 +15,15 @@ import Playtrailer from "../components/Playtrailer";
 
 const page = () => {
     return (
-        <div className="bg-white text-black min-h-[60vh] ">
-            <Playtrailer/>
+        <div className="bg-white text-black min-h-[80vh] ">
+            
            
             <TableContainer className="w-[80vw] m-auto mt-16 ">
                 <Table variant="simple">
                     <TableCaption>
-                        <span className="text-red-500">*Note:</span>
+                        <p className="text-red-500">*Note:</p>
                         <p>Rs. 100/- additional charge for 3D shows.</p>
-                        <span className="text-red-500">*</span><p>
+                        <p className="text-red-500">*</p><p>
                             Weekdays terms will not be applicable for movies
                             releasing on weekdays.
                         </p>

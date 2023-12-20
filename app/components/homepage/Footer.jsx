@@ -17,19 +17,19 @@ const Footer = () => {
                     <p>Quick Links</p>
                     <div className="flex gap-2">
                         <div>
-                            <ArrowRightIcon class="h-6 w-6 text-black" />
+                            <ArrowRightIcon className="h-6 w-6 text-black" />
                         </div>
                         <div>Gallery</div>
                     </div>
                     <div className="flex gap-2">
                         <div>
-                            <ArrowRightIcon class="h-6 w-6 text-black" />
+                            <ArrowRightIcon className="h-6 w-6 text-black" />
                         </div>
                         <div>Contact Us</div>
                     </div>
                     <div className="flex gap-2">
                         <div>
-                            <ArrowRightIcon class="h-6 w-6 text-black" />
+                            <ArrowRightIcon className="h-6 w-6 text-black" />
                         </div>
                         <div>Ticket Rate</div>
                     </div>
@@ -38,19 +38,19 @@ const Footer = () => {
                     <p>contact info</p>
                     <div className="flex gap-2">
                         <div>
-                            <MapPinIcon class="h-6 w-6 text-black" />
+                            <MapPinIcon className="h-6 w-6 text-black" />
                         </div>
                         <div>Tansen, Palpa Lumbini Province</div>
                     </div>
                     <div className="flex gap-2">
                         <div>
-                            <InboxStackIcon class="h-6 w-6 text-black" />
+                            <InboxStackIcon className="h-6 w-6 text-black" />
                         </div>
                         <div>contact@cinepalmovies.com.np</div>
                     </div>
                     <div className="flex gap-2">
                         <div>
-                            <PhoneIcon class="h-6 w-6 text-black" />
+                            <PhoneIcon className="h-6 w-6 text-black" />
                         </div>
                         <div>+977 9877654433322</div>
                     </div>
